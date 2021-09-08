@@ -1,0 +1,16 @@
+{
+  "name": "flex-box-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:watch": "tailwindcss -i style.src.css -o style.dist.css --watch",
+    "tw:build": "tailwindcss -i style.src.css -o style.dist.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.14"
+  }
+}
